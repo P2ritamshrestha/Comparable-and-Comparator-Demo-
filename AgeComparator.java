@@ -1,6 +1,6 @@
 import java.util.Comparator;
 
-class AgeComparator implements Comparator<Student1> {
+public class AgeComparator implements Comparator<Student1> {
 
     @Override
     public int compare(Student1 std1, Student1 std2) {
